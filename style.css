@@ -136,3 +136,29 @@ body {
   grid-row: 5/6;
   background-image: url("https://res.cloudinary.com/drj7gvvzq/image/upload/v1645820185/samples/sheep.jpg");
 }
+
+.logo{
+
+  width: 280px;
+}
+
+/* inicio */
+
+.menu2{
+  padding:20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:lavender
+}
+
+.centro{
+  display:grid;
+  grid-template-columns: 600px;
+}
+
+ .menu2 .nav ul {
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+}
